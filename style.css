@@ -373,3 +373,10 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+p.calc__screen-number {
+  overflow: hidden;
+  width: 23.11rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
