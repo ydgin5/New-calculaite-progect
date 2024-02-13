@@ -1,0 +1,375 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  user-select: none;
+  font-family: "Inter", sans-serif;
+  color: #495057;
+  font-weight: 400;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 0.875rem;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f7c80;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+[class*="__container"] {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  margin: 0 auto;
+  max-width: 76.25rem;
+  overflow: hidden;
+} /*# sourceMappingURL=zero.css.map */
+/* ----------------------------- */
+.main__container {
+  padding-top: 150px;
+}
+.rectangle-bigbox {
+  padding-top: 150px;
+  position: relative;
+}
+.rectangle-3 {
+  box-sizing: border-box;
+  background: #1c1c1c;
+  border-radius: 39px;
+  width: 359px;
+  height: 663px;
+  position: relative;
+  border: 5px solid #ffb800;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+._0 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  position: relative;
+  left: 0px;
+  top: 80px;
+  height: 71px;
+}
+#resulte {
+  position: relative;
+  display: flex;
+  gap: 40px;
+  overflow: hidden;
+}
+/*------------------blox- 1--------------------------- */
+.rectagle-blox1,
+.rectagle-blox2,
+.rectagle-blox3,
+.rectagle-blox4,
+.rectagle-blox5 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.4375rem;
+  transition: color 0.9s ease; /* Додавання плавної анімації для ефекту hover */
+}
+.rectagle-blox1 :hover,
+.rectagle-blox2 :hover,
+.rectagle-blox3 :hover,
+.rectagle-blox4 :hover,
+.rectagle-blox5 :hover {
+  background-color: #826f40;
+}
+
+.eclipse23,
+.eclipse24,
+.eclipse25 {
+  background: #aeaeae;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eclipse22 {
+  background: #6d6d6d;
+  border-radius: 8.75rem;
+  width: 167px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eclipse22 span {
+  color: #fff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  position: relative;
+}
+.eclipse23 span,
+.eclipse24 span {
+  color: #fff;
+  /* text-align: left; */
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+}
+.yello {
+  background: #ffb800;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yello span {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  position: relative;
+}
+
+.line-2 {
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 1px 0 0 0;
+  width: 349px;
+  height: 0px;
+  position: relative;
+  top: 145px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+/* ---------------------------------------------- */
+.eclipse26,
+.eclipse27,
+.eclipse28 {
+  background: #6d6d6d;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease; /* Додавання плавної анімації для ефекту hover */
+}
+
+.eclipse26 span,
+.eclipse27 span,
+.eclipse28 span,
+.eclipse29 span {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+  width: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Базовий стиль для елемента */
+/* ----------------------box-3----------------------- */
+.eclipse30,
+.eclipse31,
+.eclipse32 {
+  background: #6d6d6d;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eclipse30 span,
+.eclipse31 span,
+.eclipse32 span,
+.eclipse33 span {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} /* ----------------------blox-4 *------------------*/
+.eclipse34,
+.eclipse35,
+.eclipse36 {
+  background: #6d6d6d;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eclipse34 span,
+.eclipse35 span,
+.eclipse36 span,
+.eclipse37 span {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: relative;
+  width: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ------------------box-5 -----------------*/
+.eclipse38 {
+  background: #6d6d6d;
+  border-radius: 8.75rem;
+  width: 167px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eclipse38 span {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  position: relative;
+  width: 1.5rem;
+}
+
+.eclipse39 {
+  background: #6d6d6d;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eclipse39 span,
+.eclipse40 span {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  position: relative;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
